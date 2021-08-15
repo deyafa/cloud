@@ -1,0 +1,33 @@
+html {
+  height: 786px;
+  width: 1024px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-famly);
+  height: 786px;
+  width: 1024px;
+  background-color: var(--body-color);
+}
+.fd-c {
+  display: flex;
+  flex-direction: column;
+}
+.fd-r {
+  display: flex;
+  flex-direction: row;
+}
+.al-c {
+  align-items: center;
+}
+.rest {
+  margin: 0;
+  padding: 0;
+}
+.size-12 {
+  font-size: 13px;
+}
+* {
+  text-transform: uppercase;
+}

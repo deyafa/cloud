@@ -1,0 +1,59 @@
+.mnue-items__items__list{
+    background-color: var(--color-red);
+    margin-right: 0px;
+    padding: 20px 49.2px;
+    list-style: none;
+    color: var(--color-white);
+
+}
+.mnue-items__section {
+    display: flex;
+    flex-direction: row;
+
+}
+.sales-home{
+    width: 21%; 
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--color-white);
+}
+.run{
+    background-color: var(--color-lightgray);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.pad-10px{
+    padding: 3px 10px;
+}
+.back-blak{
+    background-color: var(--color-black);
+}
+.border{
+    border: solid 1px black;
+}
+.extra{
+    background-color: var(--color-syan);
+    color: var(--color-white);
+
+}
+.card{
+    background-color: var(--color-darck-red);
+    color: var(--color-white);
+
+}
+.keyboard{
+    background: var(--color-green);
+    color: var(--color-white);
+
+}
+.input-items{
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+}
+.input-items-input{
+    height: 20px;
+}

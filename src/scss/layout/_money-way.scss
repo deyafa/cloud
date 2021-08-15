@@ -1,0 +1,48 @@
+.cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.cash {
+  display: flex;
+  flex-direction: row;
+  height: 160px;
+}
+.sq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 33.33333%;
+  margin: 10px;
+  background-color: blueviolet;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.c-cash {
+  background-color: #cd0067;
+  font-family: unset;
+  font-weight: bold;
+}
+.c-mast {
+  background-color: #cc6700;
+  font-family: monospace;
+}
+.c-visa {
+  background-color: #215a9f;
+  font-family: cursive;
+}
+.c-amir {
+  background-color: #3398ff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.c-dine {
+  background-color: #339933;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.c-cheq {
+  background-color: #8dc73f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

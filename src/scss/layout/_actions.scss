@@ -1,0 +1,11 @@
+.actions{
+    display: flex;
+    flex-direction: row;
+    height: 559px;
+    background-color: cadetblue;
+}
+.bg-gray{
+    background-color: var(--color-lightgray);
+    flex-grow: 1;
+    padding: 5px;
+}
