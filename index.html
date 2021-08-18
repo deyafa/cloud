@@ -114,11 +114,11 @@
           <div class="two-div">
             <button class="uber element-items void category">
               <i class="fa fa-ban" aria-hidden="true"></i>
-              <span>void items</span>
+              <span>void item</span>
             </button>
             <button class="uber element-items clear coment">
               <i class="fa fa-shower" aria-hidden="true"></i>
-              <span>clear item</span>
+              <span>clear items</span>
             </button>
           </div>
           <div class="two-div">
@@ -141,9 +141,10 @@
               <span>discount</span>
             </button>
           </div>
-          <button class="element-items finalize">
+
+          <button onclick="hamada()" class="element-items finalize">
             <i class="fa fa-bullhorn" aria-hidden="true"></i>
-            <a class="a" href="mony.htm">finalize order</a>
+            <a class="a">finalize order</a>
           </button>
         </div>
         <div class="actions-calck">
@@ -327,10 +328,27 @@
           </div>
         </div>
       </div>
+      <div id="show" class="dialog">
+        <div onclick="hide()" class="dailog--overlay"></div>
+        <div class="dialog--cont">
+          <h2>finalize order</h2>
+          <div class="how-cash">
+            <div class="cash">
+              <a href="finesh.html" class="sq c-cash">cash</a>
+              <a href="finesh.html" class="sq c-visa">visa</a>
+              <a href="finesh.html" class="sq c-mast">master card</a>
+            </div>
+            <div class="cash">
+              <a href="finesh.html" class="sq c-amir">american express</a>
+              <a href="finesh.html" class="sq c-dine"
+                >diners club international</a
+              >
+              <button onclick="kilon" id="off" class="sq c-cheq">x</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <script
-      src="https://kit.fontawesome.com/321c4ba9dc.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="src/scripts/script.js"></script>
   </body>
 </html>

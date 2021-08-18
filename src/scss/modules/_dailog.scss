@@ -1,0 +1,23 @@
+.dialog {
+  display: none;
+}
+.dialog--cont {
+  position: absolute;
+  left: 200px;
+  bottom: 90px;
+}
+.dailog--overlay {
+  background-color: rgba(0, 0, 0, 0.534);
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.dialog--off {
+  display: none;
+}
+.dialog--show {
+  display: block;
+}
+.btn-over-lay {
+}

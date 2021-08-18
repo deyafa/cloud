@@ -4,9 +4,10 @@
 @import "base/_reset.scss";
 @import "modules/header-end-date";
 @import "modules/betwen";
-@import "modules/mnue";
+@import "modules/_mnue";
 @import "base/_colors.scss";
-@import "modules/actions-in";
+@import "modules/_actions-in";
 @import "modules/_actions-calck.scss";
-@import "layout/money-way";
-@import "layout/finesh.scss";
+@import "layout/_money-way";
+@import "layout/_finesh.scss";
+@import "modules/dailog";

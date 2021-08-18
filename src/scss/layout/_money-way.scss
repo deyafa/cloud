@@ -1,12 +1,16 @@
 .cont {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .cash {
   display: flex;
   flex-direction: row;
   height: 160px;
+}
+.how-cash {
+  background-color: #04091f;
 }
 .sq {
   display: flex;
