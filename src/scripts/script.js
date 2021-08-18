@@ -11,3 +11,4 @@ function hide() {
     showdialog.classList.remove("dialog--show");
 }
 
+ 
